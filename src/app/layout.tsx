@@ -1,6 +1,8 @@
 import './globals.css'
 import { Questrial, Montserrat } from 'next/font/google'
 import { Metadata } from 'next'
+import { MobileProvider } from '@/context/MobileContext'
+import Header from '@/components/Header'
 
 const questrial = Questrial({
   subsets: ['latin'],
@@ -34,9 +36,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className={`${questrial.variable} ${montserrat.variable}`}>
-      <body className='font-montserrat'>
-        <div className='w-full'>{children}</div>
-      </body>
+      <MobileProvider>
+        <body className='font-montserrat'>
+          <div className='relative lg:static lg:flex lg:flex-col w-full'>
+            {children}
+            <Header />
+          </div>
+        </body>
+      </MobileProvider>
     </html>
   )
 }

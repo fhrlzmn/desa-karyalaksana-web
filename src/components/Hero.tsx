@@ -3,15 +3,18 @@ import sawahImage from '@/assets/sawah.jpg'
 
 export default function Hero() {
   return (
-    <div className='relative lg:h-screen w-full'>
-      <div className='absolute w-full h-full z-10 text-white'>
-        <div className='absolute p-6 lg:p-12 left-0 lg:top-0 text-5xl lg:text-8xl font-semibold'>
-          <h1>
+    <div className='relative top-0 lg:h-screen h-96 w-full'>
+      <div className='absolute px-12 flex flex-col justify-between w-full h-full text-white'>
+        <div className='container py-8 text-4xl lg:text-8xl font-semibold'>
+          <h1 className='hidden lg:block'>
             Desa <br /> Karyalaksana
           </h1>
         </div>
-        <div className='absolute w-full p-6 lg:p-12 bottom-0 flex flex-col lg:flex-row justify-between lg:items-center text-xs lg:text-base'>
-          <p>Kab. Bandung &bull; Prov. Jawa Barat &bull; Indonesia</p>
+        <div className='container py-8 bottom-0 flex flex-col lg:flex-row justify-between lg:items-center text-xs lg:text-base'>
+          <p>
+            Kec. Ibun &bull; Kab. Bandung &bull; Prov. Jawa Barat &bull;
+            Indonesia
+          </p>
           <p>40384</p>
         </div>
       </div>
@@ -20,7 +23,8 @@ export default function Hero() {
         src={sawahImage}
         alt='Sawah'
         quality={100}
-        className='w-full h-full object-cover -z-10 contrast-100'
+        priority={true}
+        className='absolute w-full h-full object-cover -z-10 contrast-75'
       />
     </div>
   )
