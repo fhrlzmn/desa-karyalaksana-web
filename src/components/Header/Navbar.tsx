@@ -16,10 +16,7 @@ export default function Navbar({ variant }: Props) {
 
   return (
     <nav className='container flex justify-between items-center'>
-      <Link
-        href={'/'}
-        className='text-2xl lg:text-lg text-white lg:text-black font-semibold'
-      >
+      <Link href={'/'} className='text-2xl lg:text-lg text-black font-semibold'>
         Desa Karyalaksana
       </Link>
       {isVariantMobile ? <ToggleMobileMenu /> : <Links />}

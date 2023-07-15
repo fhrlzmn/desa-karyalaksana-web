@@ -13,7 +13,7 @@ export default function ToggleMobileMenu() {
       <button onClick={() => setIsOpen(true)}>
         <MobileMenuIcon
           variant={Variant.Open}
-          className={'fill-white w-6 h-6'}
+          className={'fill-black w-6 h-6'}
         />
       </button>
 

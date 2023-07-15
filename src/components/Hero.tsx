@@ -10,7 +10,7 @@ export default function Hero() {
             Desa <br /> Karyalaksana
           </h1>
         </div>
-        <div className='container py-8 bottom-0 flex flex-col lg:flex-row justify-between lg:items-center text-xs lg:text-base'>
+        <div className='container py-8 bottom-0 flex flex-col lg:flex-row justify-between items-center text-xs lg:text-base'>
           <p>
             Kec. Ibun &bull; Kab. Bandung &bull; Prov. Jawa Barat &bull;
             Indonesia

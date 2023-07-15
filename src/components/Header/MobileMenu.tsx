@@ -12,7 +12,9 @@ export default function MobileMenu() {
       <div className='flex flex-col justify-center bg-white p-6 w-full m-12 gap-8'>
         <div className='flex justify-between'>
           <h3 className='text-base font-medium text-gray-600'>
-            <Link href='/'>Beranda</Link>
+            <Link href='/' onClick={() => setIsOpen(false)}>
+              Beranda
+            </Link>
           </h3>
           <button onClick={() => setIsOpen(false)}>
             <MobileMenuIcon
@@ -28,6 +30,7 @@ export default function MobileMenu() {
               key={index}
               href={link.path}
               className='text-base font-medium text-gray-600 hover:text-green-500'
+              onClick={() => setIsOpen(false)}
             >
               {link.title}
             </Link>
