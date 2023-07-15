@@ -6,7 +6,7 @@ export default function Profile() {
   return (
     <div id='profile' className='min-h-screen w-full flex items-center px-12'>
       <div className='container py-28 lg:py-32 flex flex-col lg:flex-row justify-between gap-8'>
-        <div className='relative -z-10 lg:static flex flex-col gap-6 w-full lg:w-1/2'>
+        <div className='relative -z-10 lg:static flex flex-col gap-6 w-full lg:w-7/12'>
           <h1 className='text-3xl lg:text-6xl font-semibold'>Profil Desa</h1>
           <div className='relative -z-10 h-64 lg:h-auto w-full lg:w-1/2'>
             <Image
@@ -35,7 +35,7 @@ export default function Profile() {
             <Card title='6.761' desc='Jumlah Penduduk' />
           </div>
         </div>
-        <div className='relative hidden lg:block -z-10 h-80 lg:h-auto w-full lg:w-1/2'>
+        <div className='relative hidden lg:block -z-10 h-80 lg:h-auto w-full lg:w-5/12'>
           <Image
             src={kantorDesaImage}
             alt='Kantor Desa'
