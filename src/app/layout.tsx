@@ -2,6 +2,7 @@ import './globals.css'
 import { Questrial, Montserrat } from 'next/font/google'
 import { Metadata } from 'next'
 import { MobileProvider } from '@/context/MobileContext'
+import Footer from '@/components/Footer'
 
 const questrial = Questrial({
   subsets: ['latin'],

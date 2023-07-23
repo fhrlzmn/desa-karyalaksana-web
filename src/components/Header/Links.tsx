@@ -10,8 +10,12 @@ export const links = [
     title: 'Informasi',
   },
   {
-    path: '#galery',
-    title: 'Galeri',
+    path: '#history',
+    title: 'Sejarah',
+  },
+  {
+    path: '#contact',
+    title: 'Hubungi',
   },
 ]
 

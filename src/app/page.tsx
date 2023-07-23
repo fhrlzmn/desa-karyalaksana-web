@@ -1,4 +1,5 @@
-import Galery from '@/components/Galery'
+import Footer from '@/components/Footer'
+import History from '@/components/History'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Information from '@/components/Information'
@@ -11,7 +12,8 @@ export default function Home() {
       <Header />
       <Profile />
       <Information />
-      <Galery />
+      <History />
+      <Footer />
     </div>
   )
 }
