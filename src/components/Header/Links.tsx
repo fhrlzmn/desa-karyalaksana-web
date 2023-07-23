@@ -13,10 +13,6 @@ export const links = [
     path: '#history',
     title: 'Sejarah',
   },
-  {
-    path: '#contact',
-    title: 'Hubungi',
-  },
 ]
 
 export default function Links() {
