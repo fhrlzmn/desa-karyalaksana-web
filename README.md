@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Website Desa Karyalaksana
 
-## Getting Started
+> Dibangun untuk memenuhi tugas mata kuliah Praktikum Pemrograman Internet
 
-First, run the development server:
+## Dibangun oleh:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Nama : Fahrul Zaman
+- NIM : 301200020
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dibangun menggunakan:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [NodeJS v18.16](https://nodejs.org)
+- [PNPM](https://pnpm.io)
+- [NextJS](https://nextjs.org)
+- [TailwindCSS](https://tailwindcss.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Demo
 
-## Learn More
+> Project ini telah di Deploy ke [Vercel](https://vercel.com) untuk Demo bisa di cek pada link berikut
 
-To learn more about Next.js, take a look at the following resources:
+[https://desa-karyalaksana.vercel.app/](https://desa-karyalaksana.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Cara Install:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> pastikan [Git](https://git-scm.com) dan [NodeJS](https://nodejs.org) sudah terinstall
 
-## Deploy on Vercel
+1. Clone Repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/fhrlzmn/desa-karyalaksana-web.git # clone repo
+   cd desa-karyalaksana-web # masuk ke directory
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Install Dependensi
+
+   ```bash
+   npm i # atau menggunakan yarn, pnpm
+   ```
+
+3. Jalankan Development Server
+
+   ```bash
+   npm run dev # atau yarn dev, pnpm dev
+   ```
+
+4. Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat web nya.
